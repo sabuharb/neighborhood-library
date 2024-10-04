@@ -1,4 +1,5 @@
 package com.pluralsight;
+import java.util.Scanner;
 
 public class Book {
     private int id;
@@ -16,15 +17,4 @@ public class Book {
     }
 
 
-    public int getId() { return id; }
-    public String getIsbn() { return isbn; }
-    public String getTitle() { return title; }
-    public boolean isCheckedOut() { return isCheckedOut; }
-    public String getCheckedOutTo() { return  checkedOutTo; }
 
-
-    public void CheckedOut(String name) {
-        this.checkedOutTo = name;
-        this.isCheckedOut = true;
-    }
-}
