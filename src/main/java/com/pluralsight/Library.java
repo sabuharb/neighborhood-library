@@ -101,7 +101,7 @@ public class Library {
     }
 
 
-    // Handle checking in a book
+
     public static void checkInBook(Book[] books, Scanner scanner) {
         System.out.print("Enter the ID of the book you want to check in: ");
         int bookId = scanner.nextInt();
