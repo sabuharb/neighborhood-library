@@ -76,6 +76,11 @@ public class Book {
        }
 
     }
+
+    public boolean getIsCheckedOut() {
+
+        return false;
+    }
 }
 
 
